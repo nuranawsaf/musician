@@ -1,0 +1,119 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+html {
+  font-size: 30%;
+}
+body {
+  font-size: 1.6rem;
+  color: #07031f;
+  max-width: 100vw;
+  background-color: #f7f3ea;
+}
+
+h1 {
+  @apply text-[6rem] lg:text-[9rem] font-roboto leading-tight;
+}
+h2 {
+  @apply text-[6rem] font-roboto font-bold leading-tight;
+}
+h3 {
+  @apply text-[3.6rem] font-roboto font-medium leading-tight;
+}
+h4 {
+  @apply text-[2rem] lg:text-[3rem] font-roboto font-medium leading-tight;
+}
+h5 {
+  @apply text-[2.2rem] ;
+}
+p {
+  @apply text-[16px] md:text-[2.4rem] text-black/80 font-roboto leading-[3.6rem];
+}
+.p_small {
+  @apply text-[1.8rem] font-roboto leading-[3.0rem];
+}
+a {
+  @apply hover:text-orange font-medium transition duration-300 ease-in-out lg:text-[1.6rem] text-[16px] font-roboto leading-tight;
+}
+button {
+  @apply lg:text-[2.4rem] text-[10px] font-roboto font-normal leading-tight px-[5rem] py-[1rem] lg:py-[1.9rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-2 border-orange;
+}
+.bg-style {
+  @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen;
+}
+.sb {
+  @apply border border-red-500;
+}
+
+.sb2 {
+  @apply border border-black;
+}
+.container {
+  @apply mx-auto max-w-[80%];
+}
+@media (min-width: 360px) {
+  .container {
+    @apply max-w-[80%];
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    @apply max-w-[70rem];
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    @apply max-w-[90rem];
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    @apply max-w-[104rem];
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    @apply max-w-[124rem];
+  }
+}
+@import "tailwindcss/utilities";
+
+
+/* //......................... */
+.header-bg{
+  background-image: url('/assests/images/header-bg.jpg');
+}
+.album-btn {
+  @apply lg:text-[1.6rem] text-3xl font-roboto font-semibold leading-tight px-[2rem] py-[1rem] text-black active:scale-95 transition-all transform border-[2px] lg:border-[3px] border-orange;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #193956;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff6d00;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.buy-btn {
+  @apply lg:text-[1.6rem] text-3xl font-roboto font-semibold leading-tight lg:px-[3.5rem] lg:py-[1.5rem] text-black active:scale-95 transition-all transform border-[1px] lg:border-[2px] border-orange;
+}
+
