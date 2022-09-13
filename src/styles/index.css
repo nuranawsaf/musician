@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  @apply text-[6rem] lg:text-[9rem] font-roboto leading-tight;
+  @apply text-[5rem] lg:text-[9rem] font-roboto leading-tight;
 }
 h2 {
   @apply text-[6rem] font-roboto font-bold leading-tight;

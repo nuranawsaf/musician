@@ -13,14 +13,14 @@ const Tour = () => {
                 return  (
                     <>
                         <div className='mt-1'>
-                            <div  key={index} className='flex items-center'>
+                            <div  key={index} className='lg:flex items-center'>
                                 <div className='text-center bg-dark_blue px-16 py-8'>
                                     <h2 className='text-orange'>{item.date}</h2>
                                     <h4 className='text-white'>{item.month}</h4>
                                 </div>
 
-                                <div className='bg-cheviot flex justify-between px-16 py-[22px] lg:py-[45px]  w-full'>
-                                    <div className='ml-12'>
+                                <div className='bg-cheviot text-center lg:flex justify-between px-16 py-[09px] mb-12 lg:py-[45px]  w-full'>
+                                    <div className='lg:ml-12 text-center'>
                                         <h4 className='font-semibold text-orange'>{item.title}</h4>
                                         <h6 className='font-semibold'>{item.des}</h6>
                                     </div>
