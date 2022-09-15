@@ -4,8 +4,8 @@ import { tourdata as data, tourdata} from './tourdata';
 const Tour = () => {
   return (
     <section className='bg-white m-40 p-20 pb-72'>
-        <div className='mt-40'>
-            <h2 className='font-bold '>TOUR DATES</h2>
+        <div id='tour' className='mt-40'>
+            <h2 className='font-normal font-oswald '>TOUR DATES</h2>
             <h5 className='text-orange font-semibold tracking-widest'>SEE YOU SOON!</h5>
         </div>
         <div className='mt-32'>
@@ -14,8 +14,8 @@ const Tour = () => {
                     <>
                         <div className='mt-1'>
                             <div  key={index} className='lg:flex items-center'>
-                                <div className='text-center bg-dark_blue px-16 py-8'>
-                                    <h2 className='text-orange'>{item.date}</h2>
+                                <div className='text-center bg-dark_blue  px-16 py-8'>
+                                    <h2 className='text-orange '>{item.date}</h2>
                                     <h4 className='text-white'>{item.month}</h4>
                                 </div>
 

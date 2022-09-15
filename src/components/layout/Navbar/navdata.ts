@@ -16,19 +16,19 @@ export interface NavdataProps {
         id: 2,
         title: 'About',
         type: 'link',
-        href: '/about',
+        href: '#about',
       },
       {
         id: 3,
         title: 'Tour Dates',
         type: 'link',
-        href: '/tour',
+        href: '#tour',
       },
       {
         id: 4,
         title: 'Discography',
         type: 'link',
-        href: '/discography',
+        href: '#discography',
       },
       {
         id: 5,

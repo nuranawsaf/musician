@@ -23,7 +23,8 @@ module.exports = {
       fontFamily: {
         lora: ["Lora"],
         inter: ["Inter"],
-        roboto: ["Roboto"]
+        roboto: ["Roboto"],
+        oswald: ["Oswald"],
       },
     },
   },

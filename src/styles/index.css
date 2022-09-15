@@ -11,16 +11,16 @@ body {
 }
 
 h1 {
-  @apply text-[5rem] lg:text-[9rem] font-roboto leading-tight;
+  @apply text-[4rem] lg:text-[9rem] font-oswald font-normal leading-tight;
 }
 h2 {
-  @apply text-[6rem] font-roboto font-bold leading-tight;
+  @apply text-[6rem] font-roboto font-extrabold tracking-tighter leading-tight;
 }
 h3 {
-  @apply text-[3.6rem] font-roboto font-medium leading-tight;
+  @apply text-[3.6rem] font-oswald font-medium leading-tight;
 }
 h4 {
-  @apply text-[2rem] lg:text-[3rem] font-roboto font-medium leading-tight;
+  @apply text-[2rem] lg:text-[3rem] font-oswald  leading-tight;
 }
 h5 {
   @apply text-[2.2rem] ;
@@ -32,13 +32,13 @@ p {
   @apply text-[1.8rem] font-roboto leading-[3.0rem];
 }
 a {
-  @apply hover:text-orange font-medium transition duration-300 ease-in-out lg:text-[1.6rem] text-[16px] font-roboto leading-tight;
+  @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1.6rem] text-[16px] font-roboto  leading-tight;
 }
 button {
-  @apply lg:text-[2.4rem] text-[10px] font-roboto font-normal leading-tight px-[5rem] py-[1rem] lg:py-[1.9rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-2 border-orange;
+  @apply lg:text-[2.4rem] md:text-[11px] text-[10px] font-roboto font-semibold leading-tight px-[5rem] py-[1rem] md:py-7 lg:py-[1.9rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-2 border-orange;
 }
 .bg-style {
-  @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen;
+  @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen bg-black opacity-95;
 }
 .sb {
   @apply border border-red-500;
@@ -48,11 +48,11 @@ button {
   @apply border border-black;
 }
 .container {
-  @apply mx-auto max-w-[80%];
+  @apply px-[10rem];
 }
 @media (min-width: 360px) {
   .container {
-    @apply max-w-[80%];
+    @apply px-[10rem];
   }
 }
 
@@ -61,7 +61,7 @@ button {
     font-size: 50%;
   }
   .container {
-    @apply max-w-[70rem];
+    @apply px-[10rem];
   }
 }
 @media (min-width: 1024px) {
@@ -69,17 +69,17 @@ button {
     font-size: 62.5%;
   }
   .container {
-    @apply max-w-[90rem];
+    @apply px-[10rem];
   }
 }
 @media (min-width: 1280px) {
   .container {
-    @apply max-w-[104rem];
+    @apply px-[10rem];
   }
 }
 @media (min-width: 1536px) {
   .container {
-    @apply max-w-[124rem];
+    @apply px-[10rem];
   }
 }
 @import "tailwindcss/utilities";
@@ -87,7 +87,9 @@ button {
 
 /* //......................... */
 .header-bg{
-  background-image: url('/assests/images/header-bg.jpg');
+  
+  background-image: 
+  url('/assests/images/header-bg.jpg');
 }
 .album-btn {
   @apply lg:text-[1.6rem] text-3xl font-roboto font-semibold leading-tight px-[2rem] py-[1rem] text-black active:scale-95 transition-all transform border-[2px] lg:border-[3px] border-orange;
@@ -95,7 +97,7 @@ button {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
 }
 
 /* Track */
@@ -106,6 +108,8 @@ button {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #ff6d00;
+  border-radius: 11px;
+  
 }
 
 /* Handle on hover */
