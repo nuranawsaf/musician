@@ -32,15 +32,15 @@ const Footer = () => {
                       <input className='text-black h-[4.7rem] lg:h-[82px] w-[55%] lg:w-[48%] px-12 text-4xl' placeholder='Enter your Email' type="text" name="name" id="name" />
                       <button>SUBSCRIBE</button>
                     </div>
-                    <p className='text-white text-3xl mt-8 lg:w-[67%] mx-auto '>Please note: The Form above requires Elementor Pro. You can, of course, use any other free contact form plugins like Contact form  7  or WPForms.</p>
+                    <p className='text-white text-3xl mt-8 md:w-[81%] lg:w-[67%] mx-auto '>Please note: The Form above requires Elementor Pro. You can, of course, use any other free contact form plugins like Contact form  7  or WPForms.</p>
                 </div>
           </div>
 
           <div className='mx-[2rem] lg:mx-[5rem]'>
                 <div className=' bg-white pb-60 pt-52 lg:pt-[40rem] -mt-16 lg:-mt-0 mb-24'>
-                            <div className='text-center font-medium'>
-                                  <p>jones@cssigniter.com</p>
-                                  <p>2019 © Robert, All right reserved.</p>
+                            <div className='text-center font-medium '>
+                                  <p className='md:text-3xl'>jones@cssigniter.com</p>
+                                  <p className='md:text-3xl'>2019 © Robert, All right reserved.</p>
                             </div>
 
                             <div className=' flex justify-center mt-12'>

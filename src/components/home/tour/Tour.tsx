@@ -19,7 +19,7 @@ const Tour = () => {
                                     <h4 className='text-white'>{item.month}</h4>
                                 </div>
 
-                                <div className='bg-cheviot  lg:text-left flex justify-between px-8 py-[18px]  lg:py-[45px]  w-full'>
+                                <div className='bg-cheviot  lg:text-left flex justify-between px-8 py-[18px] md:py-[24px] lg:py-[45px]  w-full'>
                                     <div className='lg:ml-12 '>
                                         <h4 className='font-semibold text-orange '>{item.title}</h4>
                                         <h6 className='font-semibold text-[1rem] '>{item.des}</h6>

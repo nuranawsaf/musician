@@ -35,7 +35,7 @@ a {
   @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1.9rem] text-[16px] font-roboto  leading-tight;
 }
 button {
-  @apply lg:text-[2.1rem] md:text-[11px] text-[10px] font-roboto lg:font-semibold  px-[6rem] py-[0.6rem] md:py-7 lg:py-[2.3rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
+  @apply lg:text-[2.1rem] md:text-[11px] text-[10px] font-roboto lg:font-semibold  px-[6rem] py-[0.6rem] md:py-4  lg:py-[2.3rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
 }
 .bg-style {
   @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen bg-black opacity-95;
