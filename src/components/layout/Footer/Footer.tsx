@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
 
           <div className='mx-[2rem] lg:mx-[10rem]'>
-                <div className=' bg-white pb-60 pt-[40rem] -mt-16 lg:-mt-0 mb-24'>
+                <div className=' bg-white pb-60 pt-44 lg:pt-[40rem] -mt-16 lg:-mt-0 mb-24'>
                             <div className='text-center font-medium'>
                                   <p>jones@cssigniter.com</p>
                                   <p>2019 © Robert, All right reserved.</p>
