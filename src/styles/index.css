@@ -4,17 +4,17 @@ html {
   font-size: 30%;
 }
 body {
-  font-size: 1.6rem;
+  font-size: 16px;
   color: #07031f;
   max-width: 100vw;
   background-color: #f7f3ea;
 }
 
 h1 {
-  @apply text-[4rem] lg:text-[9rem] font-oswald font-normal leading-tight;
+  @apply text-[1.4rem] md:text-[70px] lg:text-[9rem] font-oswald font-normal leading-tight;
 }
 h2 {
-  @apply text-[6rem] font-roboto font-extrabold tracking-tighter leading-tight;
+  @apply text-[4rem] lg:text-[6rem] font-roboto font-extrabold tracking-tighter leading-tight;
 }
 h3 {
   @apply text-[3.6rem] font-oswald font-medium leading-tight;
@@ -26,16 +26,16 @@ h5 {
   @apply text-[2.2rem] ;
 }
 p {
-  @apply text-[16px] md:text-[2.4rem] text-black/80 font-roboto leading-[3.6rem];
+  @apply text-[14px] lg:text-[23px] md:text-[1rem] text-black/80 font-roboto leading-[3.6rem];
 }
 .p_small {
   @apply text-[1.8rem] font-roboto leading-[3.0rem];
 }
 a {
-  @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1.6rem] text-[16px] font-roboto  leading-tight;
+  @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1.9rem] text-[16px] font-roboto  leading-tight;
 }
 button {
-  @apply lg:text-[2.4rem] md:text-[11px] text-[10px] font-roboto font-semibold leading-tight px-[5rem] py-[1rem] md:py-7 lg:py-[1.9rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-2 border-orange;
+  @apply lg:text-[2.1rem] md:text-[11px] text-[10px] font-roboto lg:font-semibold  px-[6rem] py-[0.6rem] md:py-7 lg:py-[2.3rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
 }
 .bg-style {
   @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen bg-black opacity-95;
@@ -117,7 +117,7 @@ button {
   background: #555;
 }
 
-.buy-btn {
-  @apply lg:text-[1.6rem] text-3xl font-roboto font-semibold leading-tight lg:px-[3.5rem] lg:py-[1.5rem] text-black active:scale-95 transition-all transform border-[1px] lg:border-[2px] border-orange;
+.icon-box{
+  @apply border-orange p-7 mx-1 border-[1px] lg:border-[3px] rounded-full
 }
 

@@ -3,12 +3,12 @@ import { latestdata as data, latestdata } from './latestdata';
 
 const Latest = () => {
   return (
-    <section className='px-40'>
-        <div className='mt-[30rem]'>
+    <section className='px-[2rem] lg:px-40 '>
+        <div className='mt-[10rem] lg:mt-[30rem]'>
             <h2 className='font-normal font-oswald'>LATEST ALBUMS</h2>
             <h5 className='text-orange font-semibold tracking-widest'>THINGS WE,VE MADE</h5>
         </div>
-        <div className="mt-32 mb-80 grid lg:grid-cols-3 gap-x-12 gap-y-64 ">
+        <div className="mt-16 lg:mt-32 mb-80 grid lg:grid-cols-3 gap-x-12 gap-y-64 ">
             {data.map((item, index) => {
                 return (
                     <>
