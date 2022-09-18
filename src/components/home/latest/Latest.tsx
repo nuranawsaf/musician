@@ -3,7 +3,7 @@ import { latestdata as data, latestdata } from './latestdata';
 
 const Latest = () => {
   return (
-    <section className='px-[2rem] lg:px-40 '>
+    <section className='px-[2rem] lg:mx-[10rem] '>
         <div className='mt-[10rem] lg:mt-[30rem]'>
             <h2 className='font-normal font-oswald'>LATEST ALBUMS</h2>
             <h5 className='text-orange font-semibold tracking-widest'>THINGS WE,VE MADE</h5>

@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div  className='px-[2rem] lg:px-40 '>
-      <div className='bg-white px-16 lg:px-32 py-[10rem] lg:py-[30rem]'>
+    <div  className='px-[2rem] lg:mx-[5rem] '>
+      <div className='bg-white px-16 lg:px-28 py-[10rem] lg:py-[30rem]'>
         <div className="lg:flex relative">
           <div className='lg:w-[50%] my-12 lg:my-0'>
                 <div id='about'>

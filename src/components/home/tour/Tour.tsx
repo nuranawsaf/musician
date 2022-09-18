@@ -3,7 +3,7 @@ import { tourdata as data, tourdata} from './tourdata';
 
 const Tour = () => {
   return (
-    <section className='bg-white px-[2rem] lg:px-[10rem]  pb-72'>
+    <section className='bg-white px-[2rem] lg:mx-[5rem] lg:px-[7rem] pb-72'>
         <div id='tour' className='pt-[10rem] lg:pt-[28rem]'>
             <h2 className='font-normal font-oswald '>TOUR DATES</h2>
             <h5 className='text-orange font-semibold tracking-widest'>SEE YOU SOON!</h5>

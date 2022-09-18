@@ -14,7 +14,7 @@ const fes = [
 
 const Gallery = () => {
   return (
-    <section className='px-[2rem] lg:px-40 mt-32 lg:mt-60'>
+    <section className='px-[2rem] lg:px-40 mt-32 lg:mt-[30rem]'>
         <div className='grid lg:grid-cols-2 gap-x-20 gap-y-12'>
             <div id='discography' className='bg-white p-6'>
                 <img src="/assests/images/fes1.jpg" alt="" />
