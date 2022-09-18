@@ -1,9 +1,9 @@
 import React, { Children, useState } from 'react'
 import Link from 'next/link';
-import { navdata as data, navdata } from '../navdata';
+import { navdata as data } from '../navdata';
 import { useRouter } from 'next/router'
 
-const DasktopNavbar = ({router, href,}) => {
+const DasktopNavbar = () => {
 const [active , setActive]=useState(0)
   return (
     <div  className=' absolute w-full  py-16 z-10'>
