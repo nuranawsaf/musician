@@ -122,7 +122,7 @@ const Album = () => {
               </div>
           </div>
 
-          <div className='lg:w-[40%] mt-[25rem] lg:mt-20 2xl:mt-32'>
+          <div className='lg:w-[40%] mt-[27rem] lg:mt-20 2xl:mt-32'>
          <p className=' leading-relaxed text-justify'>Sed vulputate vitae nulla at auctor. Vestibulum tempor eu risus eu posuere. Vivamus ex augue, tincidunt vel urna vitae, maximus luctus nunc. Vestibulum et tempus sem, eu consequat leo. In pellentesque eleifend augue a viverra.</p>
        </div>
 
