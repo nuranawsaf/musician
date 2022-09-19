@@ -136,9 +136,7 @@ button {
   @apply font-semibold text-[.4rem] lg:text-[1rem] 2xl:text-[1rem] 
 }
 
-.latest-info {
-  @apply text-orange font-normal text-[1.3rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem]
-}
+
 .feature-style{
   @apply absolute bottom-8   lg:-bottom-0 2xl:-bottom-14 right-0 bg-white w-[92%] py-2 lg:py-4 2xl:py-12 pl-16  -mb-16
 }
@@ -165,7 +163,7 @@ button {
   @apply text-white text-xs md:text-lg  mt-4 md:w-[81%] 2xl:w-[72%] mx-auto pb-6 md:pb-0
 }
 .icon-bgStyle {
-  @apply  bg-white pb-20 lg:pb-60 pt-20 lg:pt-[40rem] -mt-16 lg:-mt-0 mb-24
+  @apply  bg-white pb-20 lg:pb-60 pt-20 lg:pt-[40rem] -mt-16 lg:-mt-0 lg:mb-24
 }
 .input-style {
   @apply text-black h-[1.5rem] lg:h-[82px] w-[55%] 2xl:w-[50%] px-2 lg:px-12 2xl:px-12 text-xs lg:text-2xl
@@ -207,8 +205,11 @@ button {
 .card-img {
   @apply w-full h-full md:h-[259px] lg:h-[309px] 2xl:h-[459px]
 }
+.latest-info {
+  @apply text-orange font-normal text-[1rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem]
+}
 .card-date {
-  @apply lg:mt-4 2xl:mt-4  lg:text-xl 2xl:text-xl font-semibold
+  @apply lg:mt-4 2xl:mt-4  text-[10px] lg:text-xl 2xl:text-xl font-semibold
 }
 .card-style{
   @apply mt-3 lg:mt-16 2xl:mt-28 mb-80 grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16  lg:gap-y-24 2xl:gap-y-40 

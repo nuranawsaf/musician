@@ -73,7 +73,7 @@ const Album = () => {
             </div>
             <div className='w-full pt-6 lg:pt-8 2xl:pt-16 lg:pl-14 2xl:pl-28 '>
               <h2>NEW ALBUM</h2>
-              <h5 className='text-orange font-semibold tracking-widest mb-3 lg:mb-0 2xl:mb-0'>AVAILABLE NOW</h5>
+              <h5 className='text-orange font-semibold tracking-widest mb-7 lg:mb-0 2xl:mb-0'>AVAILABLE NOW</h5>
             </div>
         </div>
 
