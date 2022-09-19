@@ -11,7 +11,7 @@ const MobileNavbar: React.FC = () => {
     <nav className='block lg:hidden   py-4 absolute top-0 right-0 z-10'>
       <div className='container flex justify-end'>
 
-        <div className=' text-center -mr-32 mt-4'>
+        <div className=' text-center -mr-36'>
           <button
             onClick={() => dispatch(expandMenuReducer())}
             className='bg-transparent shadow-none p-0 border-none'

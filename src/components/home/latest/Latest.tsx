@@ -3,22 +3,22 @@ import { latestdata as data, latestdata } from './latestdata';
 
 const Latest = () => {
   return (
-    <section className='px-[2rem] lg:mx-[10rem] '>
-        <div className='mt-[10rem] lg:mt-[30rem]'>
+    <section className='wrapper '>
+        <div className='mt-6 lg:mt-[10rem] 2xl:mt-[18rem]'>
             <h2 className='font-normal font-oswald'>LATEST ALBUMS</h2>
             <h5 className='text-orange font-semibold tracking-widest'>THINGS WE,VE MADE</h5>
         </div>
-        <div className="mt-16 lg:mt-32 mb-80 grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-64 ">
+        <div className="card-style">
             {data.map((item, index) => {
                 return (
                     <>
-                        <div key={index} className='relative bg-white p-5 h-full flex justify-end items-end'>
+                        <div key={index} className='latest-card'>
 
-                             <img className='w-full h-full md:h-[259px] lg:h-[459px]' src={item.url} alt="" />
+                             <img className='card-img' src={item.url} alt="" />
 
-                             <div className='absolute -bottom-32 right-0 bg-white w-[92%] py-20 pl-16  -mb-16'>
-                                <h4 className='text-orange text-6xl font-normal'>{item.title}</h4>
-                                <h6 className='mt-6 text-3xl font-semibold'>{item.date}</h6>
+                             <div className='feature-style'>
+                                <h4 className='latest-info'>{item.title}</h4>
+                                <h6 className='card-date'>{item.date}</h6>
                              </div>
                         </div>
                     </>

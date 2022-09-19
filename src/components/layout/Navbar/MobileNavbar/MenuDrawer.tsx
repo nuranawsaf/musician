@@ -18,9 +18,9 @@ const MenuDrawer: React.FC = () => {
           : 'w-0 opacity-0 translate-x-full'
       )}
     >
-      <div className='container my-4 '>
+      <div className='wrapper my-4 '>
         <button
-          className='block ml-auto bg-transparent p-0  border-none mt-20'
+          className='block ml-auto bg-transparent p-0  border-none '
           onClick={() => dispatch(expandMenuReducer())}
         >
           <AiOutlineClose className='text-white '/>

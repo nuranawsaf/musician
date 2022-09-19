@@ -1,8 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-html {
-  font-size: 30%;
-}
+
 body {
   font-size: 16px;
   color: #07031f;
@@ -11,31 +9,33 @@ body {
 }
 
 h1 {
-  @apply text-[1.4rem] md:text-[70px] lg:text-[9rem] font-oswald font-normal leading-tight;
+  @apply text-[2rem] md:text-[5rem] lg:text-[6rem] 2xl:text-[7.5rem] font-oswald font-normal leading-tight;
 }
 h2 {
-  @apply text-[4rem] lg:text-[6rem] font-roboto font-extrabold tracking-tighter leading-tight;
+  @apply text-[1.5rem] lg:text-[3.1rem] 2xl:text-[4.1rem] font-oswald ;
 }
+
 h3 {
   @apply text-[3.6rem] font-oswald font-medium leading-tight;
 }
 h4 {
-  @apply text-[2rem] lg:text-[3rem] font-oswald  leading-tight;
+  @apply text-[0.6rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem] font-oswald  ;
 }
+
 h5 {
-  @apply text-[2.2rem] ;
+  @apply text-[.6rem] lg:text-[1.3rem] 2xl:text-[1.3rem] ;
 }
 p {
-  @apply text-[14px] lg:text-[23px] md:text-[1rem] text-black/80 font-roboto leading-[3.6rem];
+  @apply lg:text-xl 2xl:text-3xl  text-black/80 font-roboto leading-[3.6rem];
 }
 .p_small {
   @apply text-[1.8rem] font-roboto leading-[3.0rem];
 }
 a {
-  @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1.9rem] text-[16px] font-roboto  leading-tight;
+  @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1rem] 2xl:text-[1.2rem] text-[16px] font-roboto  leading-tight;
 }
 button {
-  @apply lg:text-[2.1rem] md:text-[11px] text-[10px] font-roboto lg:font-semibold  px-[6rem] py-[0.6rem] md:py-4  lg:py-[2.3rem] text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
+  @apply 2xl:text-[1.2rem] lg:text-[1rem] md:text-[15px] text-[9px] font-roboto lg:font-semibold  px-[1.6rem] md:px-[4rem] lg:px-[4rem] 2xl:px-[4rem]  py-[0.3rem] md:py-3  lg:py-[1rem] 2xl:py-6 text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
 }
 .bg-style {
   @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen bg-black opacity-95;
@@ -47,6 +47,18 @@ button {
 .sb2 {
   @apply border border-black;
 }
+
+
+
+
+
+.wrapper{
+  @apply px-[1rem] lg:px-[7rem];
+}
+
+
+
+
 .container {
   @apply px-[10rem];
 }
@@ -57,26 +69,24 @@ button {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 50%;
-  }
+
   .container {
     @apply px-[10rem];
   }
 }
 @media (min-width: 1024px) {
-  html {
-    font-size: 62.5%;
-  }
+
   .container {
     @apply px-[10rem];
   }
 }
 @media (min-width: 1280px) {
+
   .container {
     @apply px-[10rem];
   }
 }
+
 @media (min-width: 1536px) {
   .container {
     @apply px-[10rem];
@@ -91,9 +101,7 @@ button {
   background-image: 
   url('/assests/images/header-bg.jpg');
 }
-.album-btn {
-  @apply lg:text-[1.6rem] text-3xl font-roboto font-semibold leading-tight px-[2rem] py-[1rem] text-black active:scale-95 transition-all transform border-[2px] lg:border-[3px] border-orange;
-}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -118,6 +126,91 @@ button {
 }
 
 .icon-box{
-  @apply border-orange p-7 mx-1 border-[1px] lg:border-[3px] rounded-full
+  @apply border-orange p-4 mx-1 border-[1px] lg:border-[3px] rounded-full
+}
+
+.font-style {
+  @apply text-orange font-roboto font-bold text-xl lg:text-[3.1rem] 2xl:text-[4.1rem]
+}
+.place-style {
+  @apply font-semibold text-[.4rem] lg:text-[1rem] 2xl:text-[1rem] 
+}
+
+.latest-info {
+  @apply text-orange font-normal text-[1.3rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem]
+}
+.feature-style{
+  @apply absolute bottom-8   lg:-bottom-0 2xl:-bottom-14 right-0 bg-white w-[92%] py-2 lg:py-4 2xl:py-12 pl-16  -mb-16
+}
+
+
+.outside_wrapper {
+  @apply px-[1rem] lg:px-[2rem] 2xl:px-[2rem]  lg:mx-[1.1rem] 2xl:mx-[1.1rem] 
+}
+
+.inside_wrapper {
+  @apply bg-white px-2 lg:px-16 2xl:px-16 py-[1.1rem] lg:py-[10rem] 2xl:py-[17rem] 2xl:mt-0 lg:mt-0 -mt-44
+}
+
+
+/*......................... album......................*/
+.album-btn {
+  @apply 2xl:text-[1.2rem] lg:text-[.8rem] md:text-[10px] text-[10px] font-roboto font-semibold leading-tight 2xl:px-[2rem] lg:px-[1rem] md:px-6 px-2 md:py-[.3rem] lg:py-[.4rem] 2xl:py-[.6rem] text-black active:scale-95 transition-all transform border-[2px] lg:border-[2px] 2xl:border-[3px] border-orange;
+}
+
+
+
+/*......................... footer......................*/
+.footer-p {
+  @apply text-white text-xs md:text-lg  mt-4 md:w-[81%] 2xl:w-[72%] mx-auto pb-6 md:pb-0
+}
+.icon-bgStyle {
+  @apply  bg-white pb-20 lg:pb-60 pt-20 lg:pt-[40rem] -mt-16 lg:-mt-0 mb-24
+}
+.input-style {
+  @apply text-black h-[1.5rem] lg:h-[82px] w-[55%] 2xl:w-[50%] px-2 lg:px-12 2xl:px-12 text-xs lg:text-2xl
+}
+.ft-inWrapper {
+  @apply lg:px-[5rem] 2xl:px-[8rem] lg:absolute lg:bottom-[40rem] lg:right-0 lg:left-0 my-12
+}
+.ft-outWrapper {
+  @apply lg:relative -mt-24 lg:mt-[27rem] 2xl:mt-[38rem] 
+}
+.ft-infoBg {
+  @apply bg-dark_blue mt-44 p-4 lg:p-36 2xl:p-36 text-center text-white
+}
+.input-wrap {
+  @apply mt-4 lg:mt-12 2xl:mt-12 gap-4 flex items-center justify-center
+}
+
+
+/*.........................tour......................*/
+.tour-list {
+  @apply bg-cheviot  lg:text-left flex justify-between px-2 lg:px-8 2xl:px-8 py-[16.8px] md:py-[42px] 2xl:py-[62px]  w-full
+}
+.date-style {
+  @apply text-center bg-dark_blue px-3 lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
+}
+.tour-outWrapper {
+  @apply px-2 lg:px-16 2xl:px-16 mx-5 lg:mx-12 2xl:mx-12 bg-white pb-12 lg:pb-60 2xl:pb-72
+}
+.tour-inWrapper {
+  @apply 2xl:pt-[15rem] lg:pt-[8rem] pt-9 -mt-[28rem] lg:-mt-0 2xl:-mt-0
+}
+
+
+
+/*.........................latest......................*/
+.latest-card {
+  @apply relative bg-white p-2 lg:p-3 2xl:p-4 h-full flex justify-end items-end
+}
+.card-img {
+  @apply w-full h-full md:h-[259px] lg:h-[309px] 2xl:h-[459px]
+}
+.card-date {
+  @apply lg:mt-4 2xl:mt-4  lg:text-xl 2xl:text-xl font-semibold
+}
+.card-style{
+  @apply mt-3 lg:mt-16 2xl:mt-28 mb-80 grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16  lg:gap-y-24 2xl:gap-y-40 
 }
 
