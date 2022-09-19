@@ -132,9 +132,7 @@ button {
 .font-style {
   @apply text-orange font-roboto font-bold text-xl lg:text-[3.1rem] 2xl:text-[4.1rem]
 }
-.place-style {
-  @apply font-semibold text-[.4rem] lg:text-[1rem] 2xl:text-[1rem] 
-}
+
 
 
 .feature-style{
@@ -185,6 +183,9 @@ button {
 /*.........................tour......................*/
 .tour-list {
   @apply bg-cheviot  lg:text-left flex justify-between px-2 lg:px-8 2xl:px-8 py-[16.8px] md:py-[42px] 2xl:py-[62px]  w-full
+}
+.place-style {
+  @apply font-semibold text-[8px] lg:text-[1rem] 2xl:text-[1rem] 
 }
 .date-style {
   @apply text-center bg-dark_blue px-3 lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
