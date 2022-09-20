@@ -23,10 +23,10 @@ h4 {
 }
 
 h5 {
-  @apply text-[14.5px] lg:text-[1.3rem] 2xl:text-[1.3rem] ;
+  @apply text-[14px] lg:text-[1.3rem] 2xl:text-[1.3rem] ;
 }
 p {
-  @apply lg:text-xl 2xl:text-3xl text-[14.5px]  text-black/80 font-roboto md:leading-[3.6rem];
+  @apply lg:text-xl 2xl:text-3xl text-[16px]  text-black/80 font-roboto md:leading-[3.6rem];
 }
 .p_small {
   @apply text-[1.8rem] font-roboto leading-[3.0rem];
@@ -125,9 +125,7 @@ button {
   background: #555;
 }
 
-.icon-box{
-  @apply border-orange p-4 mx-1 border-[1px] lg:border-[3px] rounded-full
-}
+
 
 .font-style {
   @apply text-orange font-roboto font-bold text-xl lg:text-[3.1rem] 2xl:text-[4.1rem]
@@ -156,14 +154,14 @@ button {
 
 /*......................... album......................*/
 .album-btn {
-  @apply 2xl:text-[1.2rem] lg:text-[.8rem] md:text-[10px] text-[10px] font-roboto font-semibold leading-tight 2xl:px-[2rem] lg:px-[1rem] md:px-6 px-2 md:py-[.3rem] lg:py-[.4rem] 2xl:py-[.6rem] text-black active:scale-95 transition-all transform border-[2px] lg:border-[2px] 2xl:border-[3px] border-orange;
+  @apply 2xl:text-[1.2rem] lg:text-[.8rem] md:text-[10px] text-[10px] font-roboto font-semibold  2xl:px-[2rem] lg:px-[1rem] md:px-6 px-2 md:py-[.3rem] lg:py-[.4rem] 2xl:py-[.6rem] text-black active:scale-95 transition-all transform border-[2px] lg:border-[2px] 2xl:border-[3px] border-orange;
 }
 
 
 
 /*......................... footer......................*/
 .footer-p {
-  @apply text-white md:text-lg  mt-4 md:w-[81%] 2xl:w-[72%] mx-auto pb-6 md:pb-0
+  @apply text-white text-[13px] md:text-lg  mt-4 md:w-[81%] 2xl:w-[72%] mx-auto pb-6 md:pb-0
 }
 .icon-bgStyle {
   @apply  bg-white pb-20 lg:pb-60 pt-20 lg:pt-[40rem] -mt-16 lg:-mt-0 lg:mb-24
@@ -182,6 +180,9 @@ button {
 }
 .input-wrap {
   @apply mt-4 lg:mt-12 2xl:mt-12 gap-4 flex items-center justify-center
+}
+.icon-box{
+  @apply border-orange p-2 md:p-4 mx-1 border-[1px] lg:border-[3px] rounded-full text-orange
 }
 
 
@@ -216,7 +217,7 @@ button {
   @apply text-orange font-normal text-[1rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem]
 }
 .card-date {
-  @apply lg:mt-4 2xl:mt-4  text-[12px] lg:text-xl 2xl:text-xl font-semibold
+  @apply lg:mt-4 2xl:mt-4  text-[13px] lg:text-xl 2xl:text-xl font-semibold
 }
 .card-style{
   @apply mt-3 lg:mt-16 2xl:mt-28 mb-80 grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16  lg:gap-y-24 2xl:gap-y-40 
