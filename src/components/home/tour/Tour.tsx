@@ -23,8 +23,8 @@ const Tour = () => {
 
                                 <div className='tour-list'>
                                     <div className='lg:ml-12 '>
-                                        <h4 className='font-semibold text-orange '>{item.title}</h4>
-                                        <h6 className='place-style'>{item.des}</h6>
+                                        <h4 className='w-28 md:w-full truncate font-semibold text-orange '>{item.title}</h4>
+                                        <h6 className='place-style w-28 md:w-full truncate'>{item.des}</h6>
                                     </div>
 
                                     <button className=' text-black '>{item.btn}</button>

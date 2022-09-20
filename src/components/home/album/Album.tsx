@@ -126,7 +126,7 @@ const Album = () => {
          <p className=' leading-relaxed text-justify'>Sed vulputate vitae nulla at auctor. Vestibulum tempor eu risus eu posuere. Vivamus ex augue, tincidunt vel urna vitae, maximus luctus nunc. Vestibulum et tempus sem, eu consequat leo. In pellentesque eleifend augue a viverra.</p>
        </div>
 
-       <div className='md:w-[46%] lg:w-[46%] 2xl:w-[46%] mt-3 lg:mt-7 2xl:mt-12 '>
+       <div className='md:w-[46%] lg:w-[46%] 2xl:w-[46%] mt-3 lg:mt-7 2xl:mt-12'>
          <div className=' grid grid-cols-3 gap-4'> 
                   {media.map((item, index) => {
                     return <div className='' key={index}>

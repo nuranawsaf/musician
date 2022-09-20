@@ -19,7 +19,7 @@ h3 {
   @apply text-[3.6rem] font-oswald font-medium leading-tight;
 }
 h4 {
-  @apply text-[0.6rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem] font-oswald  ;
+  @apply text-[1rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem] font-oswald  ;
 }
 
 h5 {
@@ -35,7 +35,7 @@ a {
   @apply hover:text-orange font-semibold transition duration-300 ease-in-out lg:text-[1rem] 2xl:text-[1.2rem] text-[16px] font-roboto  leading-tight;
 }
 button {
-  @apply 2xl:text-[1.2rem] lg:text-[1rem] md:text-[15px] text-[9px] font-roboto lg:font-semibold  px-[1.6rem] md:px-[4rem] lg:px-[4rem] 2xl:px-[4rem]  py-[0.3rem] md:py-3  lg:py-[1rem] 2xl:py-6 text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
+  @apply 2xl:text-[1.2rem] lg:text-[1rem] md:text-[15px] text-[12px] font-roboto lg:font-semibold  px-[.6rem] md:px-[4rem] lg:px-[4rem] 2xl:px-[4rem]  py-[0.1rem] md:py-3  lg:py-[1rem] 2xl:py-6 text-white active:scale-95 transition-all transform border-[1px] lg:border-[3px] border-orange;
 }
 .bg-style {
   @apply bg-cover bg-no-repeat bg-center h-[500px]  lg:h-screen bg-black opacity-95;
@@ -182,19 +182,19 @@ button {
 
 /*.........................tour......................*/
 .tour-list {
-  @apply bg-cheviot  lg:text-left flex justify-between px-2 lg:px-8 2xl:px-8 py-[16.8px] md:py-[42px] 2xl:py-[62px]  w-full
+  @apply bg-cheviot  lg:text-left flex justify-between px-1 lg:px-8 2xl:px-8 py-[14px] md:py-[42px] 2xl:py-[62px]  w-full
 }
 .place-style {
-  @apply font-semibold text-[8px] lg:text-[1rem] 2xl:text-[1rem] 
+  @apply font-semibold text-[11px] lg:text-[1rem] 2xl:text-[1rem] 
 }
 .date-style {
-  @apply text-center bg-dark_blue px-3 lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
+  @apply text-center bg-dark_blue px-1 lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
 }
 .tour-outWrapper {
-  @apply px-2 lg:px-16 2xl:px-16 mx-5 lg:mx-12 2xl:mx-12 bg-white pb-12 lg:pb-60 2xl:pb-72
+  @apply px-2 lg:px-16 2xl:px-16 mx-5 lg:mx-12 2xl:mx-12 bg-white  pb-12 lg:pb-60 2xl:pb-72
 }
 .tour-inWrapper {
-  @apply 2xl:pt-[15rem] lg:pt-[8rem] pt-9 -mt-[28rem] lg:-mt-0 2xl:-mt-0
+  @apply 2xl:pt-[15rem] lg:pt-[8rem] pt-9 -mt-[28rem] lg:-mt-0 2xl:mt-0
 }
 
 

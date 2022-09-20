@@ -33,7 +33,7 @@ export interface TourdataProps {
         month: 'APR',
         title: 'SANTIAGO, CHILE',
         des: 'ESTADIO NACIONAL',
-        btn: 'TICKETS SOLDOUT',
+        btn: 'SOLD OUT',
         type: 'string',
     },
     {
@@ -51,7 +51,7 @@ export interface TourdataProps {
         month: 'AUG',
         title: 'CURTIBA, BRAZIL',
         des: 'ESTADIO COUTO PEREIRA',
-        btn: 'TICKETS SOLD OUT',
+        btn: 'SOLD OUT',
         type: 'string',
     },
     {
