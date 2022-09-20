@@ -189,7 +189,7 @@ button {
   @apply font-semibold text-[11px] lg:text-[1rem] 2xl:text-[1rem] 
 }
 .date-style {
-  @apply text-center bg-dark_blue px-[1.5px] lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
+  @apply text-center bg-dark_blue px-[6px] lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
 }
 .tour-outWrapper {
   @apply px-2 lg:px-16 2xl:px-16 mx-5 lg:mx-12 2xl:mx-12 bg-white  pb-12 lg:pb-60 2xl:pb-72
