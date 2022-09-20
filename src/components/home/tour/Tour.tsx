@@ -10,7 +10,7 @@ const Tour = () => {
         </div>
 
         
-        <div className='mt-2 2xl:mt-32'>
+        <div className='mt-4 2xl:mt-32'>
             {data.map((item, index) => {
                 return  (
                     <>

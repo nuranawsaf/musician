@@ -88,9 +88,9 @@ const Album = () => {
                   </div>
               </div>
 
-              <div className='mb-4 flex items-center gap-x-8 text-white 2xl:mt-4'>
-                  <img className='h-[4px] md:h-[7px] w-full lg:w-[85%] 2xl:w-[90%]' src="/assests/images/music-line.png" alt="" />
-                  <h6>00 : 00</h6>
+              <div className='mb-4 flex items-center gap-x-2 md:gap-x-8 text-white 2xl:mt-4 '>
+                  <img className='h-[4px] md:h-[7px] w-[75%] lg:w-[85%] 2xl:w-[90%]' src="/assests/images/music-line.png" alt="" />
+                  <h6 className='text-right'>00 : 00</h6>
               </div>
 
 

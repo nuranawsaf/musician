@@ -4,7 +4,7 @@ import { latestdata as data } from './latestdata';
 const Latest = () => {
   return (
     <section className='wrapper '>
-        <div className='mt-6 lg:mt-[10rem] 2xl:mt-[18rem]'>
+        <div className='mt-8 lg:mt-[10rem] 2xl:mt-[18rem]'>
             <h2 className='font-normal font-oswald'>LATEST ALBUMS</h2>
             <h5 className='text-orange font-semibold md:tracking-widest'>THINGS WE,VE MADE</h5>
         </div>
