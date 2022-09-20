@@ -56,8 +56,8 @@ export interface TourdataProps {
     },
     {
         id: 6,
-        date: 11,
-        month: 'SEP',
+        date: 15,
+        month: 'AUG ',
         title: 'SAO PAULO, BRAZIL',
         des: 'ESTADIO DO MORUMBI',
         btn: 'BUY TICKETS',

@@ -27,7 +27,7 @@ const Tour = () => {
                                         <h6 className='place-style w-28 md:w-full truncate'>{item.des}</h6>
                                     </div>
 
-                                    <button className=' text-black '>{item.btn}</button>
+                                    <button className='text-black h-max'>{item.btn}</button>
                                 </div>
 
                             </div>

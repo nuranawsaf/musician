@@ -1,5 +1,5 @@
 import React from 'react'
-import { latestdata as data, latestdata } from './latestdata';
+import { latestdata as data } from './latestdata';
 
 const Latest = () => {
   return (

@@ -181,14 +181,15 @@ button {
 
 
 /*.........................tour......................*/
+
 .tour-list {
-  @apply bg-cheviot  lg:text-left flex justify-between px-1 lg:px-8 2xl:px-8 py-[14px] md:py-[42px] 2xl:py-[62px]  w-full
+  @apply bg-cheviot  lg:text-left flex justify-between items-center px-2 lg:px-8 2xl:px-8 py-[14px] md:py-[42px] 2xl:py-[62px]  w-full
 }
 .place-style {
   @apply font-semibold text-[11px] lg:text-[1rem] 2xl:text-[1rem] 
 }
 .date-style {
-  @apply text-center bg-dark_blue px-1 lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
+  @apply text-center bg-dark_blue px-[1.5px] lg:px-8 2xl:px-12     py-2 lg:py-8 2xl:py-14
 }
 .tour-outWrapper {
   @apply px-2 lg:px-16 2xl:px-16 mx-5 lg:mx-12 2xl:mx-12 bg-white  pb-12 lg:pb-60 2xl:pb-72
@@ -204,7 +205,7 @@ button {
   @apply relative bg-white p-2 lg:p-3 2xl:p-4 h-full flex justify-end items-end
 }
 .card-img {
-  @apply w-full h-full md:h-[259px] lg:h-[309px] 2xl:h-[459px]
+  @apply w-full h-[199PX] md:h-[259px] lg:h-[309px] 2xl:h-[459px]
 }
 .latest-info {
   @apply text-orange font-normal text-[1rem] md:text-[1.1rem] lg:text-[1.8rem] 2xl:text-[2.1rem]

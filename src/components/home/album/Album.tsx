@@ -83,13 +83,13 @@ const Album = () => {
               <div className='flex items-center gap-x-4 text-white'>
                 <BsFillPlayCircleFill className='h-full w-[9%]  text-orange bg-white rounded-full' />
                   <div>
-                    <h5 className='font-semibold 2xl:text-2xl'>Now That We Found Love</h5>
-                    <h6 className='font-normal 2xl:text-xl 2xl:mt-2'>Brain Damage</h6>
+                    <h5 className='font-semibold text-sm 2xl:text-2xl'>Now That We Found Love</h5>
+                    <h6 className='font-normal text-xs 2xl:text-xl 2xl:mt-2'>Brain Damage</h6>
                   </div>
               </div>
 
               <div className='mb-4 flex items-center gap-x-8 text-white 2xl:mt-4'>
-                  <img className='h-[7px] lg:w-[85%] 2xl:w-[90%]' src="/assests/images/music-line.png" alt="" />
+                  <img className='h-[5px] md:h-[7px] lg:w-[85%] 2xl:w-[90%]' src="/assests/images/music-line.png" alt="" />
                   <h6>00 : 00</h6>
               </div>
 
