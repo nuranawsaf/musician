@@ -43,7 +43,7 @@ const Footer = () => {
                                   <p className= 'lg:text-2xl'>2019 © Robert, All right reserved.</p>
                             </div>
 
-                            <div className=' flex justify-center mt-4 lg:mt-8'>
+                            <div className='flex justify-center mt-4 lg:mt-8'>
                                   {icons.map((item, index) => {
                                     return <>
 
