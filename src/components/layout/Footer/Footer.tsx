@@ -39,8 +39,8 @@ const Footer = () => {
           <div className='lg:mx-[2rem] 2xl:mx-[3.5rem]'>
                 <div className='icon-bgStyle'>
                             <div className='text-center font-medium '>
-                                  <p className='text-sm lg:text-2xl'>jones@cssigniter.com</p>
-                                  <p className='text-sm lg:text-2xl'>2019 © Robert, All right reserved.</p>
+                                  <p className=' lg:text-2xl'>jones@cssigniter.com</p>
+                                  <p className= 'lg:text-2xl'>2019 © Robert, All right reserved.</p>
                             </div>
 
                             <div className=' flex justify-center mt-4 lg:mt-8'>

@@ -5,12 +5,12 @@ const About = () => {
     <div  className='outside_wrapper'>
       <div className='inside_wrapper'>
         <div className="2xl:flex lg:flex relative 2xl:mt-4">
-          <div className='lg:w-[50%] my-12 lg:my-0'>
+          <div className='lg:w-[50%] my-1 md:my-0'>
                 <div id='about'>
                     <h2 className='font-normal font-oswald '>ABOUT ME</h2>
-                    <h5 className='text-orange font-semibold'>SINGER & SONGWRITER</h5>
+                    <h5 className='text-orange font-semibold md:tracking-widest'>SINGER & SONGWRITER</h5>
                 </div>
-                <img className='mt-14 lg:mt-52' src="/assests/images/sing1.jpg" alt="" />
+                <img className='mt-4 lg:mt-52' src="/assests/images/sing1.jpg" alt="" />
           </div>
 
           <div className=''>

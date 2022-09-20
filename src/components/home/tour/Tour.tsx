@@ -6,11 +6,11 @@ const Tour = () => {
     <section className='tour-outWrapper'>
         <div id='tour' className='tour-inWrapper'>
             <h2 className='font-normal font-oswald '>TOUR DATES</h2>
-            <h5 className='text-orange font-semibold tracking-widest'>SEE YOU SOON!</h5>
+            <h5 className='text-orange font-semibold md:tracking-widest'>SEE YOU SOON!</h5>
         </div>
 
         
-        <div className='mt-8 2xl:mt-32'>
+        <div className='mt-2 2xl:mt-32'>
             {data.map((item, index) => {
                 return  (
                     <>

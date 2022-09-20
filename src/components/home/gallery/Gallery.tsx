@@ -23,7 +23,7 @@ const Gallery = () => {
                 <div>
                     <h2 className=' font-oswald font-normal'>GALLERY</h2>
                     <h5 className='2xl:tracking-widest font-semibold text-orange'>FROM ALL OVER THE WORLD</h5>
-                    <h4 className='mt-3 md:mt-8 font-roboto'>Nulla semper lectus hendrerit magna tristique, et<br />eleifend ipsum euismod augue a viverra.</h4>
+                    <h4 className='mt-3 md:mt-8 font-roboto'>Nulla semper lectus hendrerit magna tristique, et eleifend ipsum euismod augue a viverra.</h4>
                     <button className='text-black mt-3 md:mt-8'>VIEW MORE ON INSTAGRAM</button>
                 </div>
             </div>

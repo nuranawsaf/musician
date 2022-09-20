@@ -6,7 +6,7 @@ const Latest = () => {
     <section className='wrapper '>
         <div className='mt-6 lg:mt-[10rem] 2xl:mt-[18rem]'>
             <h2 className='font-normal font-oswald'>LATEST ALBUMS</h2>
-            <h5 className='text-orange font-semibold tracking-widest'>THINGS WE,VE MADE</h5>
+            <h5 className='text-orange font-semibold md:tracking-widest'>THINGS WE,VE MADE</h5>
         </div>
         <div className="card-style">
             {data.map((item, index) => {
